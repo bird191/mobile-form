@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="">
+  <title>
+    Contacts
+  </title>  
+</head>
+<body>
+  <div class="shapes">
+    <div class="square"></div>
+    <div class="circle"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="contact">
+    <button>
+      &#9776
+    </button>
+    <h1>
+      Contacts
+    </h1>
+    <div class="righthand">
+      <img src="/images/search.png" alt="">
+      <img src="/images/more.png" alt="">
+    </div>
+  </div>
+    <hr>
+    <form 
+    action="action_page.php"
+    name="Registration"
+    target="_blank"
+    method="post"
+    >
+    <img src="/images/person.png" alt="">
+    <input id="Name" name="Name" type="text" placeholder="Name"required><br>
+    <img src="/images/phone.png" alt=""> 
+    <input id="Phone" name="Phone" type="tel"maxlength="10" size="10" placeholder="Phone Number">
+    <select id="Label" name="Label">
+      <option value="Label">Label</option><option value="Cell">Cell</option>
+      <option value="Home">Home</option><option value="Work">Work</option>
+    </select><br>
+    <img src="/images/gps.png" alt="">
+    <input id="Address" name="Address" type="text"placeholder="Address"><br>
+    <input id="City"type="text"placeholder="City"><br>
+    <select id="State" name="State">
+      <option>State</option>
+      <option>Alambama</option><option>Alaska</option><option>Arizona</option>
+      <option>Arkansas</option><option>California</option><option>Connecticut</option>
+      <option>Delaware</option><option>Florida</option><option>Georgia</option>
+      <option>Hawaii</option><option>Idaho</option><option>Illinois</option>
+      <option>Indiana</option><option>Iowa</option><option>Kansas</option>
+      <option>Kentucky</option><option>Louisana</option><option>Maine</option>
+      <option>Maryland</option><option>Massachusetts</option><option>Michigan</option>
+      <option>Minnesota</option><option>Mississippi</option><option>Missouri</option>
+      <option>Montana</option><option>Nebraska</option><option>Nevada</option>
+      <option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option>
+      <option>North Carolina</option><option>North Dakota</option><option>Ohio</option>
+      <option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option>
+      <option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option>
+      <option>Tennessee</option><option>Texas</option><option>Utah</option>
+      <option>Vermont</option><option>Virginia</option><option>Washington</option>
+      <option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option>
+    </select>
+    <input id="Zip" name="Zip" type="number" placeholder="Zip"><br>
+    <img src="/images/mail.png" alt="">
+    <input id="Email" name="Email" type="email"placeholder="Email" required><br>
+    <img src="/images/cake.png" alt="">
+    <input id="DOB" name="DOB" type="date" placeholder="Birthday"required><br>
+    </form>
+</body>
+</html>
